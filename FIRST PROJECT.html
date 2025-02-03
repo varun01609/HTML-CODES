@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with nav, list, and table</title>
+</head>
+<body>
+    <h1>First WebPage</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <h2>Data Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>RIYA GUPTA</td>
+                <td>RIYA@gmail.com</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PRIYA SHARMA</td>
+                <td>PRIYA@gmail.com</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer> 
+        <p>follow us:
+            <a href="https://youtu.be/K4DyBUG242c?feature=shared"> On Youtube </a>
+        </p>
+        <p>copyright reserve. 2023</p>
+    </footer>
+
+</body>
+</html>
